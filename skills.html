@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KALLAYAN'S - Skills</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="logo">
+              <a href="#">KALLAYAN</a>
+          </div>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li> <a href="skills.html" class="active">Skills</a></li>
+            <li><a href="work.html">Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <div class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </nav>
+      </header>
+      <section class="skills-section">
+        <div class="container">
+          <!-- Section heading -->
+          <div class="section-heading fade-in-up">
+            <h2>Tech Stack & Skills</h2>
+            <div class="divider"></div>
+            <p class="section-description">
+              With expertise across the full software development lifecycle, I bring a comprehensive 
+              skill set that enables me to build robust, scalable, and user-friendly applications.
+            </p>
+          </div>
+          
+          <!-- Tab navigation -->
+          <div class="tabs fade-in-up delay-100">
+            <div class="tab-container">
+              <button class="tab-button active" data-tab="technical">
+                <i class="fas fa-code"></i>Technical Skills
+              </button>
+              <button class="tab-button" data-tab="soft">
+                <i class="fas fa-brain"></i>Soft Skills
+              </button>
+            </div>
+          </div>
+          
+          <!-- Technical Skills Tab -->
+          <div id="technical-tab" class="tab-content active">
+            <!-- Category filters -->
+            <div class="category-filters fade-in-up delay-200">
+              <button class="filter-button active" data-category="all">
+                <i class="fas fa-layer-group"></i>All Skills
+              </button>
+              <button class="filter-button" data-category="frontend">
+                <i class="fas fa-code"></i>Frontend Development
+              </button>
+              <button class="filter-button" data-category="backend">
+                <i class="fas fa-server"></i>Backend Development
+              </button>
+              <button class="filter-button" data-category="mobile">
+                <i class="fas fa-mobile-screen"></i>Mobile Development
+              </button>
+              <button class="filter-button" data-category="database">
+                <i class="fas fa-database"></i>Database
+              </button>
+              <button class="filter-button" data-category="devops">
+                <i class="fas fa-cloud"></i>DevOps
+              </button>
+              <button class="filter-button" data-category="tools">
+                <i class="fas fa-wrench"></i>Tools & Platforms
+              </button>
+              <button class="filter-button" data-category="language">
+                <i class="fas fa-code"></i>Languages
+              </button>
+            </div>
+            
+            <!-- Technical Skills Grid -->
+            <div class="skills-grid fade-in-up delay-300">
+              <!-- Frontend Skills -->
+              <div class="skill-card" data-category="frontend">
+                <div class="card-header frontend-gradient"></div>
+                <div class="card-content">
+                  <div class="skill-icon">
+                    <div class="icon-circle">
+                      <i class="fab fa-react"></i>
+                    </div>
+                    <h4 class="skill-name">React</h4>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-info">
+                      <span class="progress-label">Proficiency</span>
+                      <span class="progress-value">90%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                      <div class="progress-bar frontend-gradient" style="width: 90%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="skill-card" data-category="frontend">
+                <div class="card-header frontend-gradient"></div>
+                <div class="card-content">
+                  <div class="skill-icon">
+                    <div class="icon-circle">
+                      <i class="fab fa-js"></i>
+                    </div>
+                    <h4 class="skill-name">JavaScript</h4>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-info">
+                      <span class="progress-label">Proficiency</span>
+                      <span class="progress-value">95%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                      <div class="progress-bar frontend-gradient" style="width: 95%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="skill-card" data-category="frontend">
+                <div class="card-header frontend-gradient"></div>
+                <div class="card-content">
+                  <div class="skill-icon">
+                    <div class="icon-circle">
+                      <i class="fas fa-code"></i>
+                    </div>
+                    <h4 class="skill-name">TypeScript</h4>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-info">
+                      <span class="progress-label">Proficiency</span>
+                      <span class="progress-value">85%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                      <div class="progress-bar frontend-gradient" style="width: 85%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="skill-card" data-category="frontend">
+                <div class="card-header frontend-gradient"></div>
+                <div class="card-content">
+                  <div class="skill-icon">
+                    <div class="icon-circle">
+                      <i class="fab fa-html5"></i>
+                    </div>
+                    <h4 class="skill-name">HTML5/CSS3</h4>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-info">
+                      <span class="progress-label">Proficiency</span>
+                      <span class="progress-value">90%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                      <div class="progress-bar frontend-gradient" style="width: 90%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Backend Skills -->
+              <div class="skill-card" data-category="backend">
+                <div class="card-header backend-gradient"></div>
+                <div class="card-content">
+                  <div class="skill-icon">
+                    <div class="icon-circle">
+                      <i class="fab fa-node-js"></i>
+                    </div>
+                    <h4 class="skill-name">Node.js</h4>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-info">
+                      <span class="progress-label">Proficiency</span>
+                      <span class="progress-value">85%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                      <div class="progress-bar backend-gradient" style="width: 85%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="skill-card" data-category="backend">
+                <div class="card-header backend-gradient"></div>
+                <div class="card-content">
+                  <div class="skill-icon">
+                    <div class="icon-circle">
+                      <i class="fas fa-server"></i>
+                    </div>
+                    <h4 class="skill-name">Express</h4>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-info">
+                      <span class="progress-label">Proficiency</span>
+                      <span class="progress-value">88%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                      <div class="progress-bar backend-gradient" style="width: 88%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Mobile Skills -->
+              <div class="skill-card" data-category="mobile">
+                <div class="card-header mobile-gradient"></div>
+                <div class="card-content">
+                  <div class="skill-icon">
+                    <div class="icon-circle">
+                      <i class="fas fa-mobile"></i>
+                    </div>
+                    <h4 class="skill-name">React Native</h4>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-info">
+                      <span class="progress-label">Proficiency</span>
+                      <span class="progress-value">80%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                      <div class="progress-bar mobile-gradient" style="width: 80%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Database Skills -->
+              <div class="skill-card" data-category="database">
+                <div class="card-header database-gradient"></div>
+                <div class="card-content">
+                  <div class="skill-icon">
+                    <div class="icon-circle">
+                      <i class="fas fa-database"></i>
+                    </div>
+                    <h4 class="skill-name">PostgreSQL</h4>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-info">
+                      <span class="progress-label">Proficiency</span>
+                      <span class="progress-value">85%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                      <div class="progress-bar database-gradient" style="width: 85%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- DevOps Skills -->
+              <div class="skill-card" data-category="devops">
+                <div class="card-header devops-gradient"></div>
+                <div class="card-content">
+                  <div class="skill-icon">
+                    <div class="icon-circle">
+                      <i class="fab fa-docker"></i>
+                    </div>
+                    <h4 class="skill-name">Docker</h4>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-info">
+                      <span class="progress-label">Proficiency</span>
+                      <span class="progress-value">80%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                      <div class="progress-bar devops-gradient" style="width: 80%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Tools Skills -->
+              <div class="skill-card" data-category="tools">
+                <div class="card-header tools-gradient"></div>
+                <div class="card-content">
+                  <div class="skill-icon">
+                    <div class="icon-circle">
+                      <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h4 class="skill-name">Git</h4>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-info">
+                      <span class="progress-label">Proficiency</span>
+                      <span class="progress-value">95%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                      <div class="progress-bar tools-gradient" style="width: 95%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Programming Languages -->
+              <div class="skill-card" data-category="language">
+                <div class="card-header language-gradient"></div>
+                <div class="card-content">
+                  <div class="skill-icon">
+                    <div class="icon-circle">
+                      <i class="fab fa-python"></i>
+                    </div>
+                    <h4 class="skill-name">Python</h4>
+                  </div>
+                  <div class="skill-progress">
+                    <div class="progress-info">
+                      <span class="progress-label">Proficiency</span>
+                      <span class="progress-value">85%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                      <div class="progress-bar language-gradient" style="width: 85%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Soft Skills Tab -->
+          <div id="soft-tab" class="tab-content">
+            <div class="soft-skills-grid fade-in-up">
+              <div class="soft-skill-card">
+                <div class="soft-skill-content">
+                  <div class="soft-skill-icon">
+                    <i class="fas fa-lightbulb"></i>
+                  </div>
+                  <div class="soft-skill-info">
+                    <h4>Problem Solving</h4>
+                    <p>Analytical approach to breaking down complex issues into manageable components</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="soft-skill-card">
+                <div class="soft-skill-content">
+                  <div class="soft-skill-icon">
+                    <i class="fas fa-users"></i>
+                  </div>
+                  <div class="soft-skill-info">
+                    <h4>Team Collaboration</h4>
+                    <p>Excellent at working in cross-functional teams and agile environments</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="soft-skill-card">
+                <div class="soft-skill-content">
+                  <div class="soft-skill-icon">
+                    <i class="fas fa-comments"></i>
+                  </div>
+                  <div class="soft-skill-info">
+                    <h4>Communication</h4>
+                    <p>Clear and effective communication with technical and non-technical stakeholders</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="soft-skill-card">
+                <div class="soft-skill-content">
+                  <div class="soft-skill-icon">
+                    <i class="fas fa-tasks"></i>
+                  </div>
+                  <div class="soft-skill-info">
+                    <h4>Project Management</h4>
+                    <p>Experience managing projects with timelines, priorities, and resource allocation</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="soft-skill-card">
+                <div class="soft-skill-content">
+                  <div class="soft-skill-icon">
+                    <i class="fas fa-sync-alt"></i>
+                  </div>
+                  <div class="soft-skill-info">
+                    <h4>Adaptability</h4>
+                    <p>Quick to learn new technologies and adapt to changing requirements</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="soft-skill-card">
+                <div class="soft-skill-content">
+                  <div class="soft-skill-icon">
+                    <i class="fas fa-search"></i>
+                  </div>
+                  <div class="soft-skill-info">
+                    <h4>Attention to Detail</h4>
+                    <p>Meticulous approach to coding, testing, and documentation</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <!-- Proficiency level legend -->
+          <div class="proficiency-legend fade-in-up">
+            <h4 class="legend-title">Proficiency Level Guide</h4>
+            <div class="legend-items">
+              <div class="legend-item">
+                <div class="legend-color" style="background: linear-gradient(to right, #6b7280, #9ca3af);"></div>
+                <span class="legend-label">60-69%: Familiar</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-color" style="background: linear-gradient(to right, #3b82f6, #60a5fa);"></div>
+                <span class="legend-label">70-79%: Proficient</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-color" style="background: linear-gradient(to right, #22c55e, #4ade80);"></div>
+                <span class="legend-label">80-89%: Advanced</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-color" style="background: linear-gradient(to right, #8b5cf6, #a78bfa);"></div>
+                <span class="legend-label">90-100%: Expert</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p>&copy; 2025 KALLAYAN. All rights reserved.</p>
+      </footer>
+      <script src="skill.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
