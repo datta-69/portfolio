@@ -553,6 +553,7 @@ p {
 .soft-skill-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 15px rgba(55, 98, 117, 0.2);
+  background-color: #59a4de;
 }
 
 .card-header {
@@ -801,7 +802,7 @@ footer {
 #education.container {
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 100px;
   padding: 1rem;
 }
 
@@ -822,7 +823,9 @@ h1 {
 }
 
 .education-section:hover {
-  transform: translateY(-3px);
+  transform: translateY(-5px);
+  background-color: #59a4de;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .degree {
